@@ -4,6 +4,7 @@ package singleton;
  *
  * @author carli
  */
+
 public class Singleton {
 
     /**

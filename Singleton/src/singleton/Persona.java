@@ -4,6 +4,7 @@ package singleton;
  *
  * @author carli
  */
+
 class Persona {
     //declarando
     private String nombre;
