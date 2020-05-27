@@ -11,13 +11,14 @@ public class Singleton {
      */
     public static void main(String[] args) {
         Persona p;
-        p=Persona.getInstance("Jose", "álvarez", 25);
+        p=Persona.getInstance("Carlos", "Figueiras", 21);
         System.out.println("Nombre: " + p.getNombre());
         System.out.println("Apellido: " + p.getApellido());
         System.out.println("Edad: " + p.getEdad());
         System.out.println("Pasos: "+ p.getPasos());
         p.caminar();
         System.out.println("Pasos: "+ p.getPasos());
+        //obteniendo datos y mostrandolos por pantalla
     }
     
 }
